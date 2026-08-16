@@ -1,9 +1,6 @@
 <!--
-发布前请替换以下占位符：
-1. main.swift 第 93 行 Branding.author        → 你的名字 / 昵称
-2. main.swift 第 95 行 Branding.githubURL     → 你的仓库地址
-3. 本文件中的「你的名字」「你的用户名」        → 实际信息
-4. 补充真实截图（见 images/capture.sh 指引；当前为 SVG 示意）
+品牌信息已在 main.swift 的 Branding 中配置（土立西西 / Tulixixi）。
+补充真实截图见 images/ 目录；发布 Release 前建议重新截图。
 -->
 
 # ⚡ 快捷键悬浮球 · Mac Shortcut Ball
