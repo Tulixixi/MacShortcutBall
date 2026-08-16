@@ -60,12 +60,10 @@
 
 ## 截图演示
 
-> ⚠️ 以下为**界面示意（mockup）**，按真实 UI 绘制，便于先发布；正式版建议替换为真实截图（见 `images/capture.sh` 一键指引）。
-
-![悬浮球常态](images/demo-ball.svg)
-![搜索面板实时命中](images/demo-search.svg)
-![本地无结果→在线搜索兜底](images/demo-online.svg)
-![菜单栏图标与右键菜单](images/demo-menubar.svg)
+![悬浮球常态](images/demo-ball.png)
+![搜索面板实时命中（输入「最大」过滤）](images/demo-search.png)
+![本地无结果→在线搜索兜底](images/demo-online.png)
+![浏览器自动带 Mac 前缀搜索结果](images/demo-browser.png)
 
 ---
 
