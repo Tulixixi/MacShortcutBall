@@ -1,7 +1,4 @@
-<!--
-品牌信息已在 main.swift 的 Branding 中配置（土立西西 / Tulixixi）。
-补充真实截图见 images/ 目录；发布 Release 前建议重新截图。
--->
+
 
 # ⚡ 快捷键悬浮球 · Mac Shortcut Ball
 
@@ -177,35 +174,6 @@ xcode-select --install
 
 ---
 
-## 发布到 GitHub
-
-### 第一步：创建仓库
-
-1. [github.com](https://github.com) → New repository，名称 `MacShortcutBall`，选 **Public**（本项目已配置为 `https://github.com/Tulixixi/MacShortcutBall`）
-2. 发布前把 `main.swift` 里 `Branding` 的 `author` / `githubURL` 改成你自己的
-
-### 第二步：上传代码
-
-```bash
-cd MacShortcutBall          # 进入你的项目目录
-git init
-git add .
-git commit -m "🎉 快捷键悬浮球 v1.0：首个发布版本"
-git branch -M main
-git remote add origin https://github.com/Tulixixi/MacShortcutBall.git
-git push -u origin main
-```
-
-### 第三步：发布下载包（Releases）
-
-```bash
-./build.sh dmg              # 生成 MacShortcutBall-1.0.dmg
-```
-
-GitHub 仓库页 → 右侧 **Releases** → **Create a new release**，Tag / 标题填 `v1.0`，把 `MacShortcutBall-1.0.dmg` 作为附件发布。
-
----
-
 ## 关于作者 / 关注我
 
 我是 **土立西西**，一名软件工程师，从 Windows 移民 Mac，平时爱折腾 macOS 效率工具、也爱自己写点小玩意儿。
@@ -216,7 +184,8 @@ GitHub 仓库页 → 右侧 **Releases** → **Create a new release**，Tag / �
 📮 交流 / 合作看主页
 
 - GitHub：[@Tulixixi](https://github.com/Tulixixi)
-- 博客 / 其他：待补充
+- 小红书：[@土立西西](https://xhslink.cn/m/1iW2JEYZC7C)
+- 博客 / 其他：暂无独立博客，日常内容在小红书
 
 如果这个小工具帮到了你，欢迎点 ⭐、提 Issue，或在小红书 @ 我分享你的使用场景 💬
 
