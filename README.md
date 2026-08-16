@@ -13,7 +13,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![No deps](https://img.shields.io/badge/dependencies-0-lightgrey)
 
-> 🚀 Made with ❤️ by **你的名字** · 项目主页：[GitHub](https://github.com/你的用户名/MacShortcutBall) · 给个 ⭐ 就是最大的支持！
+> 🚀 Made with ❤️ by **土立西西** · 项目主页：[GitHub](https://github.com/Tulixixi/MacShortcutBall) · 给个 ⭐ 就是最大的支持！
 
 一个**原生 macOS** 桌面悬浮球小工具，专为「从 Windows 转用 Mac」的用户设计：想不起某个 Mac 快捷键时，点一下屏幕边缘的悬浮球，输入关键词（如「截屏」「复制」「切换应用」）即可秒查对应快捷键；本地查不到时，一键用浏览器联网搜索，链接自动带上 `Mac` 前缀，结果全是 Mac 相关。
 
@@ -186,7 +186,7 @@ xcode-select --install
 
 ### 第一步：创建仓库
 
-1. [github.com](https://github.com) → New repository，名称 `MacShortcutBall`，选 **Public**
+1. [github.com](https://github.com) → New repository，名称 `MacShortcutBall`，选 **Public**（本项目已配置为 `https://github.com/Tulixixi/MacShortcutBall`）
 2. 发布前把 `main.swift` 里 `Branding` 的 `author` / `githubURL` 改成你自己的
 
 ### 第二步：上传代码
@@ -197,7 +197,7 @@ git init
 git add .
 git commit -m "🎉 快捷键悬浮球 v1.0：首个发布版本"
 git branch -M main
-git remote add origin https://github.com/你的用户名/MacShortcutBall.git
+git remote add origin https://github.com/Tulixixi/MacShortcutBall.git
 git push -u origin main
 ```
 
@@ -213,9 +213,14 @@ GitHub 仓库页 → 右侧 **Releases** → **Create a new release**，Tag / �
 
 ## 关于作者 / 关注我
 
-我是 **你的名字**，一名软件工程师，平时在折腾 macOS 效率工具与各种开发者小玩意儿。
+我是 **土立西西**，一名软件工程师，从 Windows 移民 Mac，平时爱折腾 macOS 效率工具、也爱自己写点小玩意儿。
 
-- 小红书：[@你的小红书号]()
+🧑‍💻 软件工程师 | 从 Win 移民 Mac
+⌘ 分享 Mac 效率·快捷键·自己写的小工具
+🟡 悬浮球作者 · 开源免费
+📮 交流 / 合作看主页
+
+- GitHub：[@Tulixixi](https://github.com/Tulixixi)
 - 博客 / 其他：待补充
 
 如果这个小工具帮到了你，欢迎点 ⭐、提 Issue，或在小红书 @ 我分享你的使用场景 💬

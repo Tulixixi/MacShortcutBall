@@ -90,9 +90,9 @@ enum ShortcutStore {
 
 enum Branding {
     /// 作者署名（改这里即可全应用生效，如「张小明」「@your_name」）
-    static let author = "你的名字"
+    static let author = "土立西西"
     /// GitHub 仓库地址（创建仓库后替换成你的地址）
-    static let githubURL = "https://github.com/你的用户名/MacShortcutBall"
+    static let githubURL = "https://github.com/Tulixixi/MacShortcutBall"
     /// 应用显示名
     static let appDisplayName = "快捷键悬浮球"
 

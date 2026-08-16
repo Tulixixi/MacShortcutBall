@@ -2059,6 +2059,23 @@
     ]
   },
   {
+    "id": "finder_copy_path",
+    "name": "访达：复制文件路径",
+    "keys": "⌥⌘C",
+    "plain": "Option + Command + C",
+    "category": "文件与访达",
+    "desc": "在访达中选中文件或文件夹后，复制其完整路径到剪贴板",
+    "keywords": [
+      "复制路径",
+      "文件路径",
+      "拷贝路径",
+      "路径",
+      "copy path",
+      "复制文件路径",
+      "完整路径"
+    ]
+  },
+  {
     "id": "finder_eject",
     "name": "访达：推出磁盘",
     "keys": "⌘E",
