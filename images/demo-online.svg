@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420">
+  <rect width="680" height="420" fill="#F2F2F7"/>
+  <text x="32" y="40" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8A8A8E">本地无结果 → 在线搜索兜底（链接自动带 Mac 前缀）</text>
+  <rect x="150" y="70" width="400" height="280" rx="16" fill="#FFFFFF" stroke="#E3E3E8"/>
+  <rect x="172" y="92" width="356" height="40" rx="10" fill="#F2F2F7"/>
+  <circle cx="192" cy="112" r="8" fill="none" stroke="#9A9AA0" stroke-width="2.5"/>
+  <line x1="198" y1="118" x2="204" y2="124" stroke="#9A9AA0" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="214" y="118" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#9A9AA0">asdfg乱码</text>
+  <text x="350" y="186" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" fill="#9A9AA0">未找到本地快捷键</text>
+  <rect x="250" y="226" width="200" height="44" rx="10" fill="#007AFF"/>
+  <text x="350" y="253" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#FFFFFF">在线搜索 Mac 快捷键</text>
+  <text x="350" y="300" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="11" fill="#B0B0B5">将打开 bing.com/search?q=Mac+asdfg乱码</text>
+</svg>

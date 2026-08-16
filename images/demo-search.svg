@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420">
+  <rect width="680" height="420" fill="#F2F2F7"/>
+  <text x="32" y="40" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8A8A8E">搜索面板：点击悬浮球，输入「截屏」实时命中</text>
+  <rect x="150" y="70" width="400" height="280" rx="16" fill="#FFFFFF" stroke="#E3E3E8"/>
+  <rect x="172" y="92" width="356" height="40" rx="10" fill="#F2F2F7"/>
+  <circle cx="192" cy="112" r="8" fill="none" stroke="#9A9AA0" stroke-width="2.5"/>
+  <line x1="198" y1="118" x2="204" y2="124" stroke="#9A9AA0" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="214" y="118" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#9A9AA0">截屏</text>
+  <line x1="172" y1="184" x2="528" y2="184" stroke="#F1F1F5"/>
+  <line x1="172" y1="230" x2="528" y2="230" stroke="#F1F1F5"/>
+  <text x="186" y="168" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#333333">全屏<tspan fill="#FF7A45">截图</tspan></text>
+  <rect x="452" y="150" width="66" height="30" rx="8" fill="#FFF0E8" stroke="#FF7A45"/>
+  <text x="485" y="170" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" fill="#FF7A45">⇧⌘3</text>
+  <text x="186" y="214" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#333333">区域<tspan fill="#FF7A45">截图</tspan></text>
+  <rect x="452" y="196" width="66" height="30" rx="8" fill="#FFF0E8" stroke="#FF7A45"/>
+  <text x="485" y="216" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" fill="#FF7A45">⇧⌘4</text>
+  <text x="186" y="260" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#333333">窗口<tspan fill="#FF7A45">截图</tspan></text>
+  <rect x="452" y="242" width="76" height="30" rx="8" fill="#FFF0E8" stroke="#FF7A45"/>
+  <text x="490" y="262" text-anchor="middle" font-family="-apple-system,Segoe UI,sans-serif" font-size="14" fill="#FF7A45">⇧⌘4 ␣</text>
+  <text x="186" y="312" font-family="-apple-system,Segoe UI,sans-serif" font-size="12" fill="#9A9AA0">双击结果可复制快捷键 · 本地无结果时显示「在线搜索」</text>
+</svg>

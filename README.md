@@ -3,7 +3,7 @@
 1. main.swift 第 93 行 Branding.author        → 你的名字 / 昵称
 2. main.swift 第 95 行 Branding.githubURL     → 你的仓库地址
 3. 本文件中的「你的名字」「你的用户名」        → 实际信息
-4. 补充 images/ 目录下的截图（见文末「截图规划」）
+4. 补充真实截图（见 images/capture.sh 指引；当前为 SVG 示意）
 -->
 
 # ⚡ 快捷键悬浮球 · Mac Shortcut Ball
@@ -51,7 +51,7 @@
 
 - **桌面悬浮球**：可自由拖拽，默认停靠屏幕右侧，位置自动记忆；无 Dock 图标，纯菜单栏 + 悬浮球，不打扰工作
 - **点球即搜**：点击悬浮球弹出搜索面板，输入中文 / 英文关键词实时过滤
-- **171 条常用 Mac 快捷键**：依据 Apple 官方文档整理，覆盖 9 大类——通用、Edge 浏览器、文件与访达、窗口与切换、系统、文字编辑、Safari、终端、截屏
+- **170+ 条常用 Mac 快捷键**：依据 Apple 官方文档整理，覆盖 9 大类——通用、Edge 浏览器、文件与访达、窗口与切换、系统、文字编辑、Safari、终端、截屏
 - **命中高亮 + 完整显示**：关键词高亮，右侧快捷键文本完整不被裁切
 - **一键复制**：双击搜索结果，快捷键文本（如 `Command + C`）直接进剪贴板
 - **本地无结果 → 联网兜底**：面板提示「在线搜索 Mac 快捷键」，点击或回车即用浏览器打开 `https://www.bing.com/search?q=Mac+<关键词>`，**自动带上 `Mac` 前缀**，结果更精准
@@ -63,14 +63,12 @@
 
 ## 截图演示
 
-> 图片放在 `images/` 目录下，发布前请补充（详见文末「截图规划」）。
+> ⚠️ 以下为**界面示意（mockup）**，按真实 UI 绘制，便于先发布；正式版建议替换为真实截图（见 `images/capture.sh` 一键指引）。
 
-| 画面 | 说明 |
-| --- | --- |
-| `images/demo-ball.png` | 屏幕右侧悬浮球常态 |
-| `images/demo-search.png` | 点击后弹出搜索面板、输入「截屏」实时命中 |
-| `images/demo-online.png` | 本地无结果时显示「在线搜索 Mac 快捷键」 |
-| `images/demo-menubar.png` | 菜单栏放大镜图标与右键菜单 |
+![悬浮球常态](images/demo-ball.svg)
+![搜索面板实时命中](images/demo-search.svg)
+![本地无结果→在线搜索兜底](images/demo-online.svg)
+![菜单栏图标与右键菜单](images/demo-menubar.svg)
 
 ---
 

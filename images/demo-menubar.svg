@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420">
+  <rect width="680" height="420" fill="#F2F2F7"/>
+  <text x="32" y="40" font-family="-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8A8A8E">菜单栏图标 + 右键悬浮球菜单</text>
+  <rect x="0" y="60" width="680" height="32" fill="#F5F5F7" stroke="#E3E3E8"/>
+  <text x="20" y="81" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#6A6A6E">Finder   文件   编辑   显示   …</text>
+  <circle cx="628" cy="76" r="9" fill="none" stroke="#555555" stroke-width="2.5"/>
+  <line x1="635" y1="83" x2="641" y2="89" stroke="#555555" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="612" cy="76" r="6" fill="#FF7A45"/>
+  <rect x="524" y="94" width="160" height="182" rx="10" fill="#FFFFFF" stroke="#E3E3E8"/>
+  <text x="540" y="122" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#333333">🔍 搜索快捷键</text>
+  <line x1="524" y1="138" x2="684" y2="138" stroke="#F1F1F5"/>
+  <text x="540" y="166" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#333333">显示 / 隐藏悬浮球</text>
+  <line x1="524" y1="182" x2="684" y2="182" stroke="#F1F1F5"/>
+  <text x="540" y="210" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#333333">编辑快捷键库</text>
+  <line x1="524" y1="226" x2="684" y2="226" stroke="#F1F1F5"/>
+  <text x="540" y="254" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#333333">开机自动启动  ✓</text>
+  <line x1="524" y1="270" x2="684" y2="270" stroke="#F1F1F5"/>
+  <text x="540" y="298" font-family="-apple-system,Segoe UI,sans-serif" font-size="13" fill="#333333">退出</text>
+</svg>
