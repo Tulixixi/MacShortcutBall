@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# 构建产物（不要提交，他人通过 GitHub Releases 下载 .dmg）
+/MacShortcutBall
+/MacShortcutBall.app/
+/release_stage/
+*.dmg
+
+# 图标生成产物（保留源文件 icon-source/icon.png 即可，build.sh 会自动重新生成）
+icon-source/AppIcon.iconset/
+icon-source/AppIcon.icns
