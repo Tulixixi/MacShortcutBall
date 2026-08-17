@@ -23,25 +23,23 @@ mv "$APP_NAME" "$APP_DIR/Contents/MacOS/"
 cp shortcuts.json "$APP_DIR/Contents/Resources/" 2>/dev/null || true
 cp float.png "$APP_DIR/Contents/Resources/" 2>/dev/null || true
 
-# 应用图标（品牌标志）：若不存在则从源 PNG 现场生成
+# 应用图标（品牌标志）：每次构建强制从源 PNG 重新生成，避免缓存旧图标
 ICON_DIR="icon-source"
-if [ ! -f "$ICON_DIR/AppIcon.icns" ]; then
-  echo "==> 生成 AppIcon.icns ..."
-  mkdir -p "$ICON_DIR/AppIcon.iconset"
-  SRC="$ICON_DIR/icon.png"
-  [ -f "$SRC" ] || SRC=$(ls "$ICON_DIR"/*.png 2>/dev/null | head -1)
-  sips -z 16 16 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_16x16.png" >/dev/null
-  sips -z 32 32 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_16x16@2x.png" >/dev/null
-  sips -z 32 32 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_32x32.png" >/dev/null
-  sips -z 64 64 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_32x32@2x.png" >/dev/null
-  sips -z 128 128 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_128x128.png" >/dev/null
-  sips -z 256 256 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_128x128@2x.png" >/dev/null
-  sips -z 256 256 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_256x256.png" >/dev/null
-  sips -z 512 512 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_256x256@2x.png" >/dev/null
-  sips -z 512 512 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_512x512.png" >/dev/null
-  sips -z 1024 1024 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_512x512@2x.png" >/dev/null
-  iconutil -c icns "$ICON_DIR/AppIcon.iconset" -o "$ICON_DIR/AppIcon.icns"
-fi
+echo "==> 生成 AppIcon.icns ..."
+mkdir -p "$ICON_DIR/AppIcon.iconset"
+SRC="$ICON_DIR/icon.png"
+[ -f "$SRC" ] || SRC=$(ls "$ICON_DIR"/*.png 2>/dev/null | head -1)
+sips -z 16 16 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_16x16.png" >/dev/null
+sips -z 32 32 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_16x16@2x.png" >/dev/null
+sips -z 32 32 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_32x32.png" >/dev/null
+sips -z 64 64 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_32x32@2x.png" >/dev/null
+sips -z 128 128 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_128x128.png" >/dev/null
+sips -z 256 256 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_128x128@2x.png" >/dev/null
+sips -z 256 256 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_256x256.png" >/dev/null
+sips -z 512 512 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_256x256@2x.png" >/dev/null
+sips -z 512 512 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_512x512.png" >/dev/null
+sips -z 1024 1024 "$SRC" --out "$ICON_DIR/AppIcon.iconset/icon_512x512@2x.png" >/dev/null
+iconutil -c icns "$ICON_DIR/AppIcon.iconset" -o "$ICON_DIR/AppIcon.icns"
 cp "$ICON_DIR/AppIcon.icns" "$APP_DIR/Contents/Resources/"
 
 cat > "$APP_DIR/Contents/Info.plist" <<'PLIST'

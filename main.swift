@@ -804,11 +804,6 @@ final class BallController: NSWindowController {
 
     private func showBallMenu(event: NSEvent) {
         let menu = NSMenu()
-        // 品牌标题（不可点击，作为标志展示）
-        let brand = NSMenuItem(title: "⚡ 快捷键悬浮球 · by \(Branding.author)", action: nil, keyEquivalent: "")
-        brand.isEnabled = false
-        menu.addItem(brand)
-        menu.addItem(.separator())
         let entries: [(String, Selector)] = [
             ("🔍 搜索快捷键", #selector(toggleSearch)),
             ("🙈 隐藏悬浮球", #selector(hideBall)),
@@ -833,6 +828,11 @@ final class BallController: NSWindowController {
         let quit = NSMenuItem(title: "⏏️ 退出", action: #selector(quitApp), keyEquivalent: "")
         quit.target = self
         menu.addItem(quit)
+        menu.addItem(.separator())
+        // 品牌标题（不可点击，作为标志展示）放在最下面
+        let brand = NSMenuItem(title: "⚡ 快捷键悬浮球 · by \(Branding.author)", action: nil, keyEquivalent: "")
+        brand.isEnabled = false
+        menu.addItem(brand)
         guard let w = window else { return }
         let screenPoint = w.convertToScreen(NSRect(origin: event.locationInWindow, size: .zero)).origin
         menu.popUp(positioning: nil, at: screenPoint, in: nil)
